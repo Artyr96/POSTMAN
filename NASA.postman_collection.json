@@ -1,0 +1,427 @@
+{
+	"info": {
+		"_postman_id": "e5472202-6176-4e4f-9baa-1791ca5a2600",
+		"name": "NASA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.nasa.gov/planetary/apod?api_key=39hkCwItUf2E498WAkRuqnFhhoZuWOO7uZ6kuyxh&date%3D2020-03-03=",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/planetary/apod?api_key=39hkCwItUf2E498WAkRuqnFhhoZuWOO7uZ6kuyxh&date%3D2020-03-03=",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"planetary",
+						"apod"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "39hkCwItUf2E498WAkRuqnFhhoZuWOO7uZ6kuyxh"
+						},
+						{
+							"key": "date=2020-03-03",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://837e5dfc-ace9-48da-a384-dbb82ff3ef35.mock.pstmn.io",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Sveta\"}"
+				},
+				"url": {
+					"raw": "https://837e5dfc-ace9-48da-a384-dbb82ff3ef35.mock.pstmn.io/action",
+					"protocol": "https",
+					"host": [
+						"837e5dfc-ace9-48da-a384-dbb82ff3ef35",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"action"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://837e5dfc-ace9-48da-a384-dbb82ff3ef35.mock.pstmn.io",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"Sveta\"}"
+						},
+						"url": {
+							"raw": "https://837e5dfc-ace9-48da-a384-dbb82ff3ef35.mock.pstmn.io/action",
+							"protocol": "https",
+							"host": [
+								"837e5dfc-ace9-48da-a384-dbb82ff3ef35",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"action"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 19 May 2020 20:15:07 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a4-7hO0T/XLq3TuFViTu2ZVQQdIY+A\""
+						},
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "119"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1589919271"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=e8115265c52c696d"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=e788a147ba07948c"
+						},
+						{
+							"key": "Content-Length",
+							"value": "153"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Status\": {\n        \"name\": \"Sveta\",\n        \"message\": \"To mock this request add an example response for the mock server to return.\",\n        \"header\": \"You need an example\"\n    }\n}"
+				},
+				{
+					"name": "https://837e5dfc-ace9-48da-a384-dbb82ff3ef35.mock.pstmn.io",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://837e5dfc-ace9-48da-a384-dbb82ff3ef35.mock.pstmn.io",
+							"protocol": "https",
+							"host": [
+								"837e5dfc-ace9-48da-a384-dbb82ff3ef35",
+								"mock",
+								"pstmn",
+								"io"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 19 May 2020 20:13:31 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a4-7hO0T/XLq3TuFViTu2ZVQQdIY+A\""
+						},
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "119"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1589919271"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=e8115265c52c696d"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=e788a147ba07948c"
+						},
+						{
+							"key": "Content-Length",
+							"value": "140"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Status\": {\n        \"name\": \"mockRequestNotFoundError\",\n        \"message\": \"To mock this request add an example response for the mock server to return.\",\n        \"header\": \"You need an example\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "https://837e5dfc-ace9-48da-a384-dbb82ff3ef35.mock.pstmn.io",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Sveta\"}"
+				},
+				"url": {
+					"raw": "https://837e5dfc-ace9-48da-a384-dbb82ff3ef35.mock.pstmn.io/action",
+					"protocol": "https",
+					"host": [
+						"837e5dfc-ace9-48da-a384-dbb82ff3ef35",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"action"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://837e5dfc-ace9-48da-a384-dbb82ff3ef35.mock.pstmn.io",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"Sveta\"}"
+						},
+						"url": {
+							"raw": "https://837e5dfc-ace9-48da-a384-dbb82ff3ef35.mock.pstmn.io/action",
+							"protocol": "https",
+							"host": [
+								"837e5dfc-ace9-48da-a384-dbb82ff3ef35",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"action"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 19 May 2020 20:15:07 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a4-7hO0T/XLq3TuFViTu2ZVQQdIY+A\""
+						},
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "119"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1589919271"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=e8115265c52c696d"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=e788a147ba07948c"
+						},
+						{
+							"key": "Content-Length",
+							"value": "153"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Status\": {\n        \"name\": \"Sveta\",\n        \"message\": \"To mock this request add an example response for the mock server to return.\",\n        \"header\": \"You need an example\"\n    }\n}"
+				},
+				{
+					"name": "https://837e5dfc-ace9-48da-a384-dbb82ff3ef35.mock.pstmn.io",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://837e5dfc-ace9-48da-a384-dbb82ff3ef35.mock.pstmn.io",
+							"protocol": "https",
+							"host": [
+								"837e5dfc-ace9-48da-a384-dbb82ff3ef35",
+								"mock",
+								"pstmn",
+								"io"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 19 May 2020 20:13:31 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a4-7hO0T/XLq3TuFViTu2ZVQQdIY+A\""
+						},
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "119"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1589919271"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=e8115265c52c696d"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=e788a147ba07948c"
+						},
+						{
+							"key": "Content-Length",
+							"value": "140"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Status\": {\n        \"name\": \"mockRequestNotFoundError\",\n        \"message\": \"To mock this request add an example response for the mock server to return.\",\n        \"header\": \"You need an example\"\n    }\n}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}
